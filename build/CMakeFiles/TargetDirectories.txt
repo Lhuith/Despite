@@ -1,0 +1,3 @@
+/mnt/c/Users/jhonn/Yirluin/Iota1/build/CMakeFiles/IOTA.dir
+/mnt/c/Users/jhonn/Yirluin/Iota1/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/jhonn/Yirluin/Iota1/build/CMakeFiles/rebuild_cache.dir
