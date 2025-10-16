@@ -1,13 +1,14 @@
-CMakeFiles/Inspite.dir/src/obj.cpp.obj: /f/Yirluin/Inspite/src/obj.cpp \
- /f/Yirluin/Inspite/hed/obj.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Config.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Clock.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Export.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Time.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Err.hpp \
+CMakeFiles/Inspite.dir/src/obj.cpp.obj: \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/src/obj.cpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/hed/obj.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Config.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Clock.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Export.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Time.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Err.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/ostream \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/i686-w64-mingw32/bits/c++config.h \
@@ -147,15 +148,15 @@ CMakeFiles/Inspite.dir/src/obj.cpp.obj: /f/Yirluin/Inspite/src/obj.cpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/locale_facets.tcc \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/basic_ios.tcc \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/ostream.tcc \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/FileInputStream.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/InputStream.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/NonCopyable.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Lock.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/MemoryInputStream.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Mutex.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Sleep.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/String.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Utf.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/FileInputStream.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/InputStream.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/NonCopyable.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Lock.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/MemoryInputStream.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Mutex.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Sleep.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/String.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Utf.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/algorithm \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_algo.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/algorithmfwd.h \
@@ -172,63 +173,63 @@ CMakeFiles/Inspite.dir/src/obj.cpp.obj: /f/Yirluin/Inspite/src/obj.cpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/codecvt.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.tcc \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/locale_conv.h \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Utf.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Utf.inl \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/iterator \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stream_iterator.h \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/String.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Thread.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Thread.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/ThreadLocal.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/ThreadLocalPtr.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/ThreadLocalPtr.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Vector2.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Vector2.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Vector3.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/System/Vector3.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Clipboard.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Export.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Context.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/GlResource.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/ContextSettings.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Cursor.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Event.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Joystick.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Keyboard.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Mouse.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Sensor.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Touch.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/VideoMode.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/String.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Thread.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Thread.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/ThreadLocal.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/ThreadLocalPtr.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/ThreadLocalPtr.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Vector2.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Vector2.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Vector3.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/System/Vector3.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Clipboard.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Export.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Context.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/GlResource.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/ContextSettings.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Cursor.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Event.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Joystick.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Keyboard.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Mouse.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Sensor.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Touch.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/VideoMode.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/vector \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_uninitialized.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_vector.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/vector.tcc \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Window.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/WindowBase.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/Vulkan.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/WindowHandle.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Window.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/WindowBase.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/Vulkan.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/WindowHandle.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/stdint.h \
  /usr/share/mingw-w64/include/stdint.h \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Window/WindowStyle.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/BlendMode.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Export.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/CircleShape.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Shape.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Drawable.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/RenderStates.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Transform.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Rect.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Rect.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Transformable.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/VertexArray.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Vertex.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Color.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/PrimitiveType.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/ConvexShape.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Font.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Glyph.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Texture.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Image.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Window/WindowStyle.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/BlendMode.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Export.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/CircleShape.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Shape.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Drawable.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/RenderStates.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Transform.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Rect.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Rect.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Transformable.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/VertexArray.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Vertex.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Color.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/PrimitiveType.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/ConvexShape.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Font.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Glyph.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Texture.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Image.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/map \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_tree.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/ext/aligned_buffer.h \
@@ -236,18 +237,18 @@ CMakeFiles/Inspite.dir/src/obj.cpp.obj: /f/Yirluin/Inspite/src/obj.cpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_map.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/stl_multimap.h \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/erase_if.h \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/RectangleShape.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/RenderTarget.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/View.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/RenderTexture.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/RenderWindow.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Shader.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Glsl.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Glsl.inl \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Sprite.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/Text.hpp \
- /f/Yirluin/Inspite/lib/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/RectangleShape.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/RenderTarget.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/View.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/RenderTexture.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/RenderWindow.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Shader.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Glsl.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Glsl.inl \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Sprite.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/Text.hpp \
+ /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/iostream \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/istream \
  /usr/lib/gcc/i686-w64-mingw32/13-posix/include/c++/bits/istream.tcc \
- /f/Yirluin/Inspite/hed/macros.hpp
+ /mnt/c/Users/jhonn/Documents/Repos/despite/hed/macros.hpp

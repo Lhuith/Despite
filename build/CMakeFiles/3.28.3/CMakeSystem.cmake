@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.15.167.4-microsoft-standard-WSL2")
+set(CMAKE_HOST_SYSTEM "Linux-6.6.87.2-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.15.167.4-microsoft-standard-WSL2")
+set(CMAKE_HOST_SYSTEM_VERSION "6.6.87.2-microsoft-standard-WSL2")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/f/Yirluin/Inspite/cmakeTools/mingw-w64-x86_64.cmake")
+include("/mnt/c/Users/jhonn/Documents/Repos/despite/cmakeTools/mingw-w64-x86_64.cmake")
 
 set(CMAKE_SYSTEM "Windows")
 set(CMAKE_SYSTEM_NAME "Windows")

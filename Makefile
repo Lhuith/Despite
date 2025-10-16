@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /mnt/c/Users/jhonn/Documents/Repos/despite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/jhonn/Documents/Repos/despite/build
+CMAKE_BINARY_DIR = /mnt/c/Users/jhonn/Documents/Repos/despite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles /mnt/c/Users/jhonn/Documents/Repos/despite/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Documents/Repos/despite/CMakeFiles /mnt/c/Users/jhonn/Documents/Repos/despite//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Documents/Repos/despite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,13 +129,13 @@ Inspite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/build
 .PHONY : Inspite/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.o
+.PHONY : main.cpp.o
 
 main.i: main.cpp.i
 .PHONY : main.i
@@ -153,13 +153,13 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/input.obj: src/input.cpp.obj
-.PHONY : src/input.obj
+src/input.o: src/input.cpp.o
+.PHONY : src/input.o
 
 # target to build an object file
-src/input.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/input.cpp.obj
-.PHONY : src/input.cpp.obj
+src/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/input.cpp.o
+.PHONY : src/input.cpp.o
 
 src/input.i: src/input.cpp.i
 .PHONY : src/input.i
@@ -177,13 +177,13 @@ src/input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/input.cpp.s
 .PHONY : src/input.cpp.s
 
-src/obj.obj: src/obj.cpp.obj
-.PHONY : src/obj.obj
+src/obj.o: src/obj.cpp.o
+.PHONY : src/obj.o
 
 # target to build an object file
-src/obj.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/obj.cpp.obj
-.PHONY : src/obj.cpp.obj
+src/obj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/obj.cpp.o
+.PHONY : src/obj.cpp.o
 
 src/obj.i: src/obj.cpp.i
 .PHONY : src/obj.i
@@ -210,13 +210,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Inspite"
-	@echo "... main.obj"
+	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/input.obj"
+	@echo "... src/input.o"
 	@echo "... src/input.i"
 	@echo "... src/input.s"
-	@echo "... src/obj.obj"
+	@echo "... src/obj.o"
 	@echo "... src/obj.i"
 	@echo "... src/obj.s"
 .PHONY : help

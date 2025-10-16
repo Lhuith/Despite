@@ -10,7 +10,7 @@ int main() {
     if (!test.loadFromFile("../img/test/c1 0002.png")) {
         std::cout << "error loading texture" << std::endl;
     }
-    std::cout << "Hello from Alaran" << std::endl;
+    std::cout << "Hello from Test" << std::endl;
 
     //  GAME WINDOW
 

@@ -1,3 +1,3 @@
-/f/Yirluin/Inspite/build/CMakeFiles/Inspite.dir
-/f/Yirluin/Inspite/build/CMakeFiles/edit_cache.dir
-/f/Yirluin/Inspite/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles/Inspite.dir
+/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles/rebuild_cache.dir

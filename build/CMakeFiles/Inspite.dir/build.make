@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /f/Yirluin/Inspite
+CMAKE_SOURCE_DIR = /mnt/c/Users/jhonn/Documents/Repos/despite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /f/Yirluin/Inspite/build
+CMAKE_BINARY_DIR = /mnt/c/Users/jhonn/Documents/Repos/despite/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Inspite.dir/depend.make
@@ -69,55 +69,72 @@ include CMakeFiles/Inspite.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Inspite.dir/flags.make
 
+CMakeFiles/Inspite.dir/src/input.cpp.obj: CMakeFiles/Inspite.dir/flags.make
+CMakeFiles/Inspite.dir/src/input.cpp.obj: CMakeFiles/Inspite.dir/includes_CXX.rsp
+CMakeFiles/Inspite.dir/src/input.cpp.obj: /mnt/c/Users/jhonn/Documents/Repos/despite/src/input.cpp
+CMakeFiles/Inspite.dir/src/input.cpp.obj: CMakeFiles/Inspite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Inspite.dir/src/input.cpp.obj"
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inspite.dir/src/input.cpp.obj -MF CMakeFiles/Inspite.dir/src/input.cpp.obj.d -o CMakeFiles/Inspite.dir/src/input.cpp.obj -c /mnt/c/Users/jhonn/Documents/Repos/despite/src/input.cpp
+
+CMakeFiles/Inspite.dir/src/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Inspite.dir/src/input.cpp.i"
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/jhonn/Documents/Repos/despite/src/input.cpp > CMakeFiles/Inspite.dir/src/input.cpp.i
+
+CMakeFiles/Inspite.dir/src/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Inspite.dir/src/input.cpp.s"
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/jhonn/Documents/Repos/despite/src/input.cpp -o CMakeFiles/Inspite.dir/src/input.cpp.s
+
 CMakeFiles/Inspite.dir/src/obj.cpp.obj: CMakeFiles/Inspite.dir/flags.make
 CMakeFiles/Inspite.dir/src/obj.cpp.obj: CMakeFiles/Inspite.dir/includes_CXX.rsp
-CMakeFiles/Inspite.dir/src/obj.cpp.obj: /f/Yirluin/Inspite/src/obj.cpp
+CMakeFiles/Inspite.dir/src/obj.cpp.obj: /mnt/c/Users/jhonn/Documents/Repos/despite/src/obj.cpp
 CMakeFiles/Inspite.dir/src/obj.cpp.obj: CMakeFiles/Inspite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/f/Yirluin/Inspite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Inspite.dir/src/obj.cpp.obj"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inspite.dir/src/obj.cpp.obj -MF CMakeFiles/Inspite.dir/src/obj.cpp.obj.d -o CMakeFiles/Inspite.dir/src/obj.cpp.obj -c /f/Yirluin/Inspite/src/obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Inspite.dir/src/obj.cpp.obj"
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inspite.dir/src/obj.cpp.obj -MF CMakeFiles/Inspite.dir/src/obj.cpp.obj.d -o CMakeFiles/Inspite.dir/src/obj.cpp.obj -c /mnt/c/Users/jhonn/Documents/Repos/despite/src/obj.cpp
 
 CMakeFiles/Inspite.dir/src/obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Inspite.dir/src/obj.cpp.i"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /f/Yirluin/Inspite/src/obj.cpp > CMakeFiles/Inspite.dir/src/obj.cpp.i
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/jhonn/Documents/Repos/despite/src/obj.cpp > CMakeFiles/Inspite.dir/src/obj.cpp.i
 
 CMakeFiles/Inspite.dir/src/obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Inspite.dir/src/obj.cpp.s"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /f/Yirluin/Inspite/src/obj.cpp -o CMakeFiles/Inspite.dir/src/obj.cpp.s
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/jhonn/Documents/Repos/despite/src/obj.cpp -o CMakeFiles/Inspite.dir/src/obj.cpp.s
 
 CMakeFiles/Inspite.dir/main.cpp.obj: CMakeFiles/Inspite.dir/flags.make
 CMakeFiles/Inspite.dir/main.cpp.obj: CMakeFiles/Inspite.dir/includes_CXX.rsp
-CMakeFiles/Inspite.dir/main.cpp.obj: /f/Yirluin/Inspite/main.cpp
+CMakeFiles/Inspite.dir/main.cpp.obj: /mnt/c/Users/jhonn/Documents/Repos/despite/main.cpp
 CMakeFiles/Inspite.dir/main.cpp.obj: CMakeFiles/Inspite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/f/Yirluin/Inspite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Inspite.dir/main.cpp.obj"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inspite.dir/main.cpp.obj -MF CMakeFiles/Inspite.dir/main.cpp.obj.d -o CMakeFiles/Inspite.dir/main.cpp.obj -c /f/Yirluin/Inspite/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Inspite.dir/main.cpp.obj"
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Inspite.dir/main.cpp.obj -MF CMakeFiles/Inspite.dir/main.cpp.obj.d -o CMakeFiles/Inspite.dir/main.cpp.obj -c /mnt/c/Users/jhonn/Documents/Repos/despite/main.cpp
 
 CMakeFiles/Inspite.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Inspite.dir/main.cpp.i"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /f/Yirluin/Inspite/main.cpp > CMakeFiles/Inspite.dir/main.cpp.i
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/jhonn/Documents/Repos/despite/main.cpp > CMakeFiles/Inspite.dir/main.cpp.i
 
 CMakeFiles/Inspite.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Inspite.dir/main.cpp.s"
-	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /f/Yirluin/Inspite/main.cpp -o CMakeFiles/Inspite.dir/main.cpp.s
+	/usr/bin/i686-w64-mingw32-g++-posix -Werror -Wall $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/jhonn/Documents/Repos/despite/main.cpp -o CMakeFiles/Inspite.dir/main.cpp.s
 
 # Object files for target Inspite
 Inspite_OBJECTS = \
+"CMakeFiles/Inspite.dir/src/input.cpp.obj" \
 "CMakeFiles/Inspite.dir/src/obj.cpp.obj" \
 "CMakeFiles/Inspite.dir/main.cpp.obj"
 
 # External object files for target Inspite
 Inspite_EXTERNAL_OBJECTS =
 
+Inspite.exe: CMakeFiles/Inspite.dir/src/input.cpp.obj
 Inspite.exe: CMakeFiles/Inspite.dir/src/obj.cpp.obj
 Inspite.exe: CMakeFiles/Inspite.dir/main.cpp.obj
 Inspite.exe: CMakeFiles/Inspite.dir/build.make
-Inspite.exe: /f/Yirluin/Inspite/lib/SFML/lib/libsfml-graphics-s.a
-Inspite.exe: /f/Yirluin/Inspite/lib/SFML/lib/libsfml-window-s.a
-Inspite.exe: /f/Yirluin/Inspite/lib/SFML/lib/libsfml-system-s.a
-Inspite.exe: /f/Yirluin/Inspite/lib/SFML/lib/libfreetype.a
+Inspite.exe: /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/lib/libsfml-graphics-s.a
+Inspite.exe: /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/lib/libsfml-window-s.a
+Inspite.exe: /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/lib/libsfml-system-s.a
+Inspite.exe: /mnt/c/Users/jhonn/Documents/Repos/despite/lib/SFML/lib/libfreetype.a
 Inspite.exe: CMakeFiles/Inspite.dir/linkLibs.rsp
 Inspite.exe: CMakeFiles/Inspite.dir/objects1.rsp
 Inspite.exe: CMakeFiles/Inspite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/f/Yirluin/Inspite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Inspite.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Inspite.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Inspite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +146,6 @@ CMakeFiles/Inspite.dir/clean:
 .PHONY : CMakeFiles/Inspite.dir/clean
 
 CMakeFiles/Inspite.dir/depend:
-	cd /f/Yirluin/Inspite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /f/Yirluin/Inspite /f/Yirluin/Inspite /f/Yirluin/Inspite/build /f/Yirluin/Inspite/build /f/Yirluin/Inspite/build/CMakeFiles/Inspite.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/jhonn/Documents/Repos/despite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/jhonn/Documents/Repos/despite /mnt/c/Users/jhonn/Documents/Repos/despite /mnt/c/Users/jhonn/Documents/Repos/despite/build /mnt/c/Users/jhonn/Documents/Repos/despite/build /mnt/c/Users/jhonn/Documents/Repos/despite/build/CMakeFiles/Inspite.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Inspite.dir/depend
 

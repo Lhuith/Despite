@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Inspite.dir/main.cpp.obj"
   "CMakeFiles/Inspite.dir/main.cpp.obj.d"
+  "CMakeFiles/Inspite.dir/src/input.cpp.obj"
+  "CMakeFiles/Inspite.dir/src/input.cpp.obj.d"
   "CMakeFiles/Inspite.dir/src/obj.cpp.obj"
   "CMakeFiles/Inspite.dir/src/obj.cpp.obj.d"
   "Inspite.exe"
