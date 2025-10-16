@@ -1,56 +1,54 @@
-#define showInConsole(x) cout << x << endl;
-// #include <SFML/Graphics.hpp>
-// #include <iostream>
 
-// using namespace std;
-
-// int main(int argc, char* argv[]) {
-//     // cout << "testing" << endl;
-
-//     sf::RenderWindow game_window{{512, 512}, "Simple Breakout Game Version 9"};
-
-//     while (game_window.isOpen()) {
-//         // clear the screen
-//         game_window.clear(sf::Color::Black);
-
-//         // check for any events since the last loop iteration
-//         sf::Event event;
-
-//         while (game_window.pollEvent(event)) {
-//             if (event.type == sf::Event::Closed)
-//                 game_window.close();
-//         }
-
-//         game_window.display();
-//     }
-
-//     return 0;
-// }
+#include <SFML/Graphics.hpp>
 #include <iostream>
 
-using namespace std;
+#include "constants.hpp"
+#include "obj.hpp"
 
-string to = "bye";
-char baby = '1';
+int main() {
+    sf::Texture test;
+    if (!test.loadFromFile("../img/test/c1 0002.png")) {
+        std::cout << "error loading texture" << std::endl;
+    }
+    std::cout << "Hello from Alaran" << std::endl;
 
-int bank = 20;
+    //  GAME WINDOW
 
-float n1 = c1
+    sf::RenderWindow game_window({{CONSTANTS::window_width, CONSTANTS::window_height}, "Alaran"});
 
-    int
-    main() {
-    string t2 = to + baby;
+    // LOOP
+    sf::Sprite sprite;
+    sprite.setTexture(test);
 
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
-    // cout << t2 << endl;
+    Obj player = Obj();
+    player.Test();
 
-    showInConsole(bank % 2);
+    while (game_window.isOpen()) {
+        // clear the screen
+        game_window.clear(sf::Color::Black);
+
+        game_window.draw(sprite);
+
+        // check for any events since the last loop iteration
+        sf::Event event;
+
+        // if the user pressed "escape", or clicked on "close", we close the window
+        // this will terminate the program
+        while (game_window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                game_window.close();
+        }
+
+        // check for user input
+        // if the user presses "escape", we jump out of the loop
+        // this will terminate the program
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
+            break;
+
+        player.Update();
+
+        game_window.display();
+    }
 
     return 0;
 }

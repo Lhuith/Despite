@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/jhonn/Yirluin/Iota1
+CMAKE_SOURCE_DIR = /f/Yirluin/Inspite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/jhonn/Yirluin/Iota1/build
+CMAKE_BINARY_DIR = /f/Yirluin/Inspite/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Yirluin/Iota1/build/CMakeFiles /mnt/c/Users/jhonn/Yirluin/Iota1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /f/Yirluin/Inspite/build/CMakeFiles /f/Yirluin/Inspite/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jhonn/Yirluin/Iota1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /f/Yirluin/Inspite/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named IOTA
+# Target rules for targets named Inspite
 
 # Build rule for target.
-IOTA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IOTA
-.PHONY : IOTA
+Inspite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Inspite
+.PHONY : Inspite
 
 # fast build rule for target.
-IOTA/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOTA.dir/build.make CMakeFiles/IOTA.dir/build
-.PHONY : IOTA/fast
+Inspite/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/build
+.PHONY : Inspite/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOTA.dir/build.make CMakeFiles/IOTA.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOTA.dir/build.make CMakeFiles/IOTA.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,8 +150,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOTA.dir/build.make CMakeFiles/IOTA.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/obj.obj: src/obj.cpp.obj
+.PHONY : src/obj.obj
+
+# target to build an object file
+src/obj.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/obj.cpp.obj
+.PHONY : src/obj.cpp.obj
+
+src/obj.i: src/obj.cpp.i
+.PHONY : src/obj.i
+
+# target to preprocess a source file
+src/obj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/obj.cpp.i
+.PHONY : src/obj.cpp.i
+
+src/obj.s: src/obj.cpp.s
+.PHONY : src/obj.s
+
+# target to generate assembly for a file
+src/obj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Inspite.dir/build.make CMakeFiles/Inspite.dir/src/obj.cpp.s
+.PHONY : src/obj.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... IOTA"
+	@echo "... Inspite"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/obj.obj"
+	@echo "... src/obj.i"
+	@echo "... src/obj.s"
 .PHONY : help
 
 
